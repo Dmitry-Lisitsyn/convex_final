@@ -41,7 +41,7 @@ class Segment implements Figure {
         return this;
     }
     public void draw(Graphics g) {
-        //////////////////////
+
         g.setColor(Color.GREEN);
         g.fillOval((int)p.x-5, (int)(p.y*(-1)-5), 10, 10);
         g.fillOval((int)q.x-5, (int)(q.y*(-1)-5), 10, 10);

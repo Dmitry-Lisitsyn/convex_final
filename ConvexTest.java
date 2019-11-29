@@ -35,11 +35,12 @@ class ConvexTest {
             fr.repaint();
         }
         while (true) {
+            fr.repaint();
 
             convex.add(new R2Point());
             System.out.println("S = " + convex.area() + " , P = "
                     + convex.perimeter() + " , rebra = " + convex.rebra());
-            fr.repaint();
+
         }
 
     }

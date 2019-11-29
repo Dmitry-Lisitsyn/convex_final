@@ -19,6 +19,7 @@ public class MyFrame extends JFrame {
     }
 
     public void paint(Graphics g) {
+        g.clearRect(0,0,700,500);
         g.translate(getWidth() / 2, getHeight() / 2);
         g.drawLine(0, -getHeight(), 0, getHeight());
         g.drawLine(-getWidth(), 0, getWidth(), 0);
